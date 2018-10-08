@@ -31,7 +31,7 @@
                         "contentType": {
                             "title": "Page Content",
                             "enum": [
-                                "httpshttps://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/banner.json",
+                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/banner.json",
                                 "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/blog.json",
                                 "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/card.json",
                                 "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/cardlist.json",
