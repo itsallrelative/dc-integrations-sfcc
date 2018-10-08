@@ -31,18 +31,18 @@
                         "contentType": {
                             "title": "Page Content",
                             "enum": [
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/banner.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/blog.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/card.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/cardlist.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/externalblock.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/homepage.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/image.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/promobanner.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/slider.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/splitblock.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/text.json",
-                                "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/content-types/video.json"
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/blog.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/card.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/cardlist.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/externalblock.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/homepage.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/image.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/promobanner.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/slider.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/splitblock.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/text.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/video.json"
                             ]
                         }
                     }
