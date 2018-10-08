@@ -3,7 +3,7 @@
     "allOf": [{
         "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }],
-    "id": "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/examples/dc-slot-example.json",
+    "id": "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/examples/page.json",
     "title": "Content Slot configuration for SFCC",
     "description": "Content Slot configuration for SFCC",
     "type": "object",
