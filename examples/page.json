@@ -1,13 +1,11 @@
 {
     "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-    "allOf": [
-        {
-            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
-        }
-    ],
+    "allOf": [{
+        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }],
     "id": "https://raw.githubusercontent.com/itsallrelative/dc-integrations-sfcc/master/examples/dc-slot-example.json",
-    "title": "content-type-slot-example.json",
-    "description": "content-type-slot-example.json description",
+    "title": "Content Slot configuration for SFCC",
+    "description": "Content Slot configuration for SFCC",
     "type": "object",
     "properties": {
         "_environment": {
@@ -25,8 +23,7 @@
             }
         },
         "content": {
-            "allOf": [
-                {
+            "allOf": [{
                     "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
                 },
                 {
@@ -34,7 +31,18 @@
                         "contentType": {
                             "title": "Page Content",
                             "enum": [
-                                "http://dev-solutions.s3.amazonaws.com/DynamicContentTypes/res/simpleBanner/contentType/simple-banner.json"
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/blog.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/card.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/cardlist.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/externalblock.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/homepage.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/image.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/promobanner.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/slider.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/splitblock.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/text.json",
+                                "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/video.json"
                             ]
                         }
                     }
